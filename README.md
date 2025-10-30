@@ -81,3 +81,7 @@ npm start
 확장프로그램 > react developer tool > 설치
 
 
+# build
+npm run build
+
+https://app.netlify.com/projects/gorgeous-daifuku-80375b/deploys
