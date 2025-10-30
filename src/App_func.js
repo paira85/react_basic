@@ -5,7 +5,7 @@ import React from 'react'
 const Myheader = () => { 
   return(
     <header>
-      <h1 class="logo"><a href="#">프론트엔드 개발자</a></h1>
+      <h1 class="logo"><a href="/">프론트엔드 개발자</a></h1>
       <p>기본언어인 html, css, javascript부터 학습합니다.</p>
 
     </header>

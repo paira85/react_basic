@@ -10,7 +10,7 @@ class CreateArticle extends Component{
             <h2>Create Task</h2>                  
             <form action="/create_process" method="POST" onSubmit={ e=>{
               e.preventDefault();
-              this.props.onSubmit( e.target.title.value , e.target.desc .value)
+              this.props.onSubmit( e.target.title.value , e.target.desc.value)
             }}>
               <p>
                 <label htmlFor="title">Title:</label>

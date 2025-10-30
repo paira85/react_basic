@@ -9,7 +9,7 @@ class ReadArticle extends Component{
         classNames += ' hidden'
     }
 
-    
+     
     return(
       <div>
         <section>
@@ -18,7 +18,7 @@ class ReadArticle extends Component{
             <p>{this.props.desc}</p>       
 
             <ul className={classNames}>
-                <li><a href="#" className="secondary" 
+                <li><a href="/" className="secondary" 
                  onClick={e=>{
                         e.preventDefault();
                         this.props.onChangeMode("update");

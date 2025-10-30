@@ -8,7 +8,7 @@ class Myheader extends Component{
     return (
       <header>
         <h1 className="logo">
-            <a href="#" onClick={e=>{
+            <a href="/" onClick={e=>{
                 e.preventDefault()
                 this.props.onChangeMode();
                 
