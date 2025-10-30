@@ -70,13 +70,13 @@ class App extends Component {
             _menus.splice(idx,1)
             this.setState({
               mode:'welcome',
-              menus:_menus
+              menus:_menus 
             })
           }
         }else{
           this.setState({
             mode:_mode
-          })
+          }) 
         }          
       }}
       ></ReadArticle>
